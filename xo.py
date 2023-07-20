@@ -42,9 +42,9 @@ class Solution:
             numo = 0
             for i in string:
                 if i == 'O':
-                    numo++
+                    numo+=1
                 elif i == 'X':
-                     numx++
+                     numx+=1
 
             if numx != numo:
                 return False
